@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="images">
+    <file>alert-icon-1559.png</file>
+    <file>img/error.png</file>
+    <file>img/folder-icon-512x512.png</file>
+    <file>img/island-paradise-nature-landscapes-9876-hq.jpg</file>
+  </qresource>
+</RCC>

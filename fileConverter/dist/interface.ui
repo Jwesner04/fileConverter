@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>719</width>
+    <height>477</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#Dialog{
+	border-image: url(:/img/island-paradise-nature-landscapes-9876-hq.jpg) 0 0 0 0 stretch stretch;
+	border-image: url(:/images/img/island-paradise-nature-landscapes-9876-hq.jpg)  0 0 0 0 stretch stretch;;
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QWidget" name="verticalWidget" native="true">
+     <property name="styleSheet">
+      <string notr="true">#verticalWidget{
+
+}</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="title">
+        <property name="styleSheet">
+         <string notr="true">#title{
+	padding-left: 5px;
+	background-color: rgb(0, 0, 0, 80%);
+	max-height:42px;
+	color: rgb(241, 241, 241);
+	border:none;
+	font-size: 15px;
+}</string>
+        </property>
+        <property name="text">
+         <string>Welcome to File(s) to Word Document Converter</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="interfaceContainer" native="true">
+        <property name="styleSheet">
+         <string notr="true">#interfaceContainer{
+		background-color: rgb(0, 0, 0, 80%);
+		padding-bottom: -30px;
+}</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QLabel" name="date">
+           <property name="styleSheet">
+            <string notr="true">#date{
+	margin-left:530px;
+	padding-left: 2px;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0.443182 rgba(98, 116, 146, 10%), stop:1 rgba(255, 255, 255, 10%));
+	max-height:25px;
+	min-width: 100px;
+	color: rgb(255, 255, 255);
+	font-size: 15px;
+}</string>
+           </property>
+           <property name="text">
+            <string>Date:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="userInfo_2" native="true">
+           <layout class="QHBoxLayout" name="userInfo">
+            <item>
+             <widget class="QLabel" name="userNameNote">
+              <property name="styleSheet">
+               <string notr="true">#userNameNote{
+	max-height: 30px;
+	color: rgb(255, 255, 255);
+	padding-left: 8px;
+	padding-right: 18px;
+	font-size: 17px;
+}</string>
+              </property>
+              <property name="text">
+               <string>User Name:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="userNameEdit">
+              <property name="styleSheet">
+               <string notr="true">#userNameEdit{
+	height: 20px;
+	background-color: rgb(228, 232, 255);
+	max-width: 320px;
+	margin-right: 250px;
+	border: none;
+	color: rgb(44, 44, 44);
+	font-size: 15px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	padding-left:2px;
+}
+
+#userNameEdit:focus{
+	border: none
+}</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="projectInfo_2" native="true">
+           <layout class="QHBoxLayout" name="projectInfo">
+            <item>
+             <widget class="QLabel" name="projectName">
+              <property name="styleSheet">
+               <string notr="true">#projectName{
+	max-height: 30px;
+	color: rgb(255, 255, 255);
+	padding-left: 5px;
+	font-size: 17px;
+}</string>
+              </property>
+              <property name="text">
+               <string>Project Name: </string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="projectNameEdit">
+              <property name="styleSheet">
+               <string notr="true">#projectNameEdit{
+	height: 20px;
+	background-color: rgb(228, 232, 255);
+	max-width: 320px;
+	margin-right: 250px;
+	border: none;
+	font-size: 15px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	padding-left:2px;
+	color: rgb(44, 44, 44);
+}
+
+#projectNameEdit:focus{
+	border: none
+}</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="spaceFiller">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="folderSearchLabel">
+           <property name="styleSheet">
+            <string notr="true">#folderSearchLabel{
+	max-height: 30px;
+	color: rgb(255, 255, 255);
+	padding-left: 6px;
+	font-size: 17px;
+	padding-bottom: -7px;
+}</string>
+           </property>
+           <property name="text">
+            <string>Choose the folder where the files to be converted are stored</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="note">
+           <property name="styleSheet">
+            <string notr="true">#note{
+	max-height: 35px;	
+	color: rgb(255, 255, 255);
+	padding-left: 15px;
+	margin-bottom: -10px;
+	font-size: 12px;
+}</string>
+           </property>
+           <property name="text">
+            <string>note -- The following files must be included in the selected folder: .sum, .drc_errors.ascii, .log, .sum_erc, .rep.cls</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="folderSearch" native="true">
+           <property name="styleSheet">
+            <string notr="true">#folderSearch{
+	max-height: 50px;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0.443182 rgba(98, 116, 146, 10%), stop:1 rgba(255, 255, 255, 10%));
+}</string>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <widget class="QLineEdit" name="fileInput">
+              <property name="styleSheet">
+               <string notr="true">#fileInput{
+	max-height: 22px;
+	background-color: rgb(228, 232, 255);
+	border: none;
+	font-size: 15px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	padding-left:2px;
+	color: rgb(44, 44, 44);
+}
+
+#fileInput:focus{
+	border: none
+}</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QToolButton" name="toolButton">
+              <property name="cursor">
+               <cursorShape>PointingHandCursor</cursorShape>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">#toolButton{
+	border-image: url(:/images/img/folder-icon-512x512.png) 0 0 0 0 stretch;
+	height: 30px;
+	width: 30px;
+}</string>
+              </property>
+              <property name="text">
+               <string>...</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="buttonContainer" native="true">
+           <property name="styleSheet">
+            <string notr="true">#buttonContainer{
+		
+}</string>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <item>
+             <widget class="QLabel" name="spaceHelper">
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="spaceHelper_2">
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="okButton">
+              <property name="cursor">
+               <cursorShape>PointingHandCursor</cursorShape>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">#okButton{
+	color: rgb(31, 33, 30);
+	border:none;
+	font-size: 15px;
+	max-width: 100px;
+	min-height: 25px;
+
+	text-align:center;
+	subcontrol-position: center;
+	
+	background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0, stop:0.176136 rgba(147, 139, 139, 255), stop:1 rgba(255, 255, 255, 255));
+
+}
+
+#okButton:hover{
+	background-color: rgb(255,255, 250,50%);
+}
+
+#okButton:focus {
+	border: none;
+	outline: none;
+}</string>
+              </property>
+              <property name="text">
+               <string>Convert</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="cancelButton">
+              <property name="cursor">
+               <cursorShape>PointingHandCursor</cursorShape>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">#cancelButton{
+	color: rgb(31, 33, 30);
+	border:none;
+	font-size: 15px;
+	max-width: 100px;
+	min-height: 25px;
+	text-align:center;
+	subcontrol-position: center;
+	background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0, stop:0.176136 rgba(147, 139, 139, 255), stop:1 rgba(255, 255, 255, 255));
+}
+
+#cancelButton:hover{
+	background-color: rgb(255,255, 250,50%);
+}
+
+#cancelButton:focus {
+	border: none;
+	outline: none;
+}</string>
+              </property>
+              <property name="text">
+               <string>Cancel</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>
